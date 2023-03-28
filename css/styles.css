@@ -8,9 +8,6 @@ body{
 
 header,
 footer,
-h1,
-h2,
-h3,
-p {
-        /* border: 2px solid rgba(61, 48, 48) ; */
+section{
+        border: 2px solid rgba(61, 48, 48) ;
 }

@@ -1,13 +1,26 @@
-body{
-  outline: 2px solid black ; 
-  background-color: rgb(145, 163, 145); 
-  color: rgb(27, 25, 25);
+body {
+    font-family: 'Roboto', sans-serif;
+    ;
+    outline: 2px solid black;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(27, 25, 25);
 }
 
 
 
 header,
 footer,
-section{
-        border: 2px solid rgba(61, 48, 48) ;
+section {
+    border: 2px solid rgba(61, 48, 48);
+}
+
+.header{
+    background: #2E2F42;
+    color: #fff;
+}
+
+.footer{
+background: #2E2F42;
+color: rgb(255, 255, 255);
 }

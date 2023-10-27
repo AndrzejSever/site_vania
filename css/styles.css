@@ -1,24 +1,37 @@
 /* *!------- Document ------------*/
 :root {
- --text-color: #434455;
- --background-color: #fff;
+ --text-color: rgb(67, 68, 85);
+ --background-color: rgb(255, 255, 255);
 
  --link-color:rgba(255, 255, 255, 0.80);;
 
- --text-heder_footer-color: #ffffff;
+ --text-heder_footer-color: rgb(255, 255, 255);
  --heder_footer-background-color: #141414;
 
  --hover_focus-color: rgb(111, 111, 111);
- --heder_footer-hover-background-color: rgba(3, 184, 244, 0.302);
+ --heder_footer-hover-background-color: hsla(195, 98%, 48%, 0.302);
+
+
+ --o-animation-delay: #414b56;
 }
 
 * {
- list-style: none;
+ /* list-style: none; */
  text-decoration: none;
  font-style: normal;
+ cursor: pointer;
  color: currentColor;
+ box-sizing: border-box;
  margin: 0;
  padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    display: block;
 }
 
 body {
@@ -29,13 +42,32 @@ body {
  letter-spacing: 0.1em;
 }
 
+.conteiner {
+    width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
+    ma
+}
 
 /* *!------- header ------------*/
+
+.header{
+   
+}
 
 .header,
 .footer {
  color:var(--text-heder_footer-color);
  background:var(--heder_footer-background-color); 
+ display: flex;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
 }
 
 .hover:hover,
@@ -45,8 +77,6 @@ body {
 
 .address {
  font-size: 12px;
- letter-spacing: 0.1em;
- line-height: 1.3;
  color: var(--link-color);
 }
 
@@ -54,15 +84,13 @@ body {
 color: var(--text-heder_footer-color);
 font-size: 18px;
 font-weight: 600;
- letter-spacing: 0.1em;
- line-height: 1.3;
 }
 
 /* *!------- /header ------------ */
 
 /* *!------- main ------------*/
 
-main {
+.rent-selling-container {
  text-align: center;
 }
 

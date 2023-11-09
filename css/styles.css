@@ -25,7 +25,7 @@ html {
   cursor: pointer;
   color: currentColor;
   box-sizing: inherit;
-  margin: 0;
+  margin: 0; 
   padding: 0;
 }
 
@@ -52,14 +52,19 @@ body {
 }
 
 .conteiner {
-  width: 1200px;
+  width: 1230px;
   padding: 15px;
   margin: 0 auto;
+}
+
+.wraper_box{
+  display: flex;
 }
 
 /* *!------- header ------------*/
 
 .header {
+  
 }
 
 .header,
@@ -85,6 +90,7 @@ body {
 .address {
   font-size: 12px;
   color: var(--link-color);
+  display: flex;
 }
 
 .address h3 {
@@ -93,6 +99,9 @@ body {
   font-weight: 600;
 }
 
+.wraper_social{
+  display: flex;
+}
 /* *!------- /header ------------ */
 
 /* *!------- main ------------*/

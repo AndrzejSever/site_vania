@@ -59,6 +59,7 @@ body {
 
 .wraper_box{
   display: flex;
+  justify-content: center ;
 }
 
 /* *!------- header ------------*/

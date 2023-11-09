@@ -58,8 +58,7 @@ body {
 }
 
 .wraper_box{
-  display: flex;
-  justify-content: center ;
+  display: flex;  
 }
 
 /* *!------- header ------------*/

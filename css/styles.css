@@ -1,4 +1,5 @@
 /* *!------- Document ------------*/
+
 html {
   box-sizing: border-box;
 }
@@ -41,6 +42,7 @@ ul {
 img {
   border-style: none;
   display: block;
+  max-width: 100%;
 }
 
 body {
@@ -58,13 +60,13 @@ body {
 }
 
 .wraper_box{
-  display: flex;  
+  display: flex;
 }
 
 /* *!------- header ------------*/
 
-.header {
-  
+.header-img{
+  display: none;
 }
 
 .header,

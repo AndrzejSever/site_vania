@@ -53,6 +53,12 @@ body {
   letter-spacing: 0.1em;
 }
 
+.logo{
+width: 150px;
+border-radius: 40px;
+overflow: hidden;
+}
+
 .conteiner {
   width: 1230px;
   padding: 15px;
@@ -61,8 +67,15 @@ body {
 
 /* *!------- header ------------*/
 
-.header-img {
-  display: none;
+.header_back{
+background-image:linear-gradient(rgba(46,47,66,0.70),rgba(46,47,66,0.70) ), url(../img/pexels-ekaterina-bolovtsova-4680277.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  background-size: 150%;
+  background-position: center center;
+}
+
+.header{
 }
 
 .header,
@@ -86,6 +99,13 @@ body {
   display: flex;
   margin-left: 100px;
   gap: 75px;
+}
+
+ header span{
+
+}
+
+.hover_btm{
 }
 
 .hover:hover,
@@ -139,10 +159,14 @@ body {
 
 .wraper_box_footer {
   display: flex;
-  gap: 100px;
+  
+  /* gap: 100px; */
+
 }
 
 .address_box{
-  gap: 75px;
+  flex-basis: 100%;
+
+  justify-content:space-evenly;
 }
 /* *!------- /footer ------------*/

@@ -22,8 +22,7 @@ html {
 * {
   /* list-style: none; */
   text-decoration: none;
-  font-style: normal;
-  cursor: pointer;
+  font-style: normal;  
   color: currentColor;
   box-sizing: inherit;
   margin: 0;
@@ -46,7 +45,7 @@ img {
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--backgroundhover-color);
   color: var(--text-color);
   font-family: "Montserrat", "Open Sans", "Raleway";
   line-height: 1.3;
@@ -59,20 +58,27 @@ body {
   margin: 0 auto;
 }
 
-.logo{
-width: 150px;
+.logo {
+  width: 150px;
+}
+
+.svg{
+  fill:#fff;
 }
 
 /* *!------- header ------------*/
 
-.header_back{
-background-image:linear-gradient(rgba(46,47,66,0.70),rgba(46,47,66,0.70) ), url(../img/pexels-ekaterina-bolovtsova-4680277.jpg);
+.header_back {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../img/pexels-ekaterina-bolovtsova-4680277.jpg);
   background-repeat: no-repeat;
   height: 600px;
   background-size: 150%;
   background-position: center center;
 }
-
 
 .header,
 .footer {
@@ -114,6 +120,17 @@ background-image:linear-gradient(rgba(46,47,66,0.70),rgba(46,47,66,0.70) ), url(
   align-items: center;
 }
 
+.btm {
+  background-color: var(--hover_focus-color);
+  padding: 6px;
+  border-radius: 20px;
+  color: black;
+}
+
+.btm:hover{
+  background-color:rgb(12, 236, 23);
+  color: var(--text-color);
+}
 /* *!------- /header ------------ */
 
 /* *!------- main ------------*/
@@ -143,12 +160,42 @@ background-image:linear-gradient(rgba(46,47,66,0.70),rgba(46,47,66,0.70) ), url(
 
 .address h3 {
   color: var(--text-heder_footer-color);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 16px;
+  
 }
 
-.address_box{
+.address_box {
   flex-basis: 100%;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
+
+.title{
+ 
+}
+
+.conteiner_svg{
+  display: flex;
+  gap: 12px;
+  
+}
+
+.svg_wrapper{
+  display: flex;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;  
+  background-color:var(--hover_focus-color);
+  border-radius: 50%;
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg{
+  fill:var(--text-heder_footer-color);
+}
+
+
 /* *!------- /footer ------------*/

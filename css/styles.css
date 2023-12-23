@@ -76,7 +76,7 @@ body {
     url(../img/pexels-ekaterina-bolovtsova-4680277.jpg);
   background-repeat: no-repeat;
   height: 600px;
-  background-size: 150%;
+  background-size:cover;
   background-position: center center;
 }
 
@@ -108,6 +108,15 @@ body {
   color: var(--hover_focus-color);
 }
 
+.btn-header-shadow::after {
+  content: '';
+  width: 100%;
+  height: 4px;
+  background-color:var(--text-heder_footer-color);
+  border-radius: 2px;
+  display: block;   
+}
+
 .address {
   font-size: 12px;
   color: var(--link-color);
@@ -125,6 +134,7 @@ body {
   padding: 6px;
   border-radius: 20px;
   color: black;
+  font-weight: 600;
 }
 
 .btm:hover{
@@ -191,11 +201,18 @@ body {
   background-color:var(--hover_focus-color);
   border-radius: 50%;
   transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill:black;
+}
+
+.svg_wrapper:hover{
+  background-color:rgb(12, 236, 23);
+  fill: var(--text-color);
 }
 
 .svg{
-  fill:var(--text-heder_footer-color);
+  fill:inherit;
 }
+
 
 
 /* *!------- /footer ------------*/

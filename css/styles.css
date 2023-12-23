@@ -172,14 +172,13 @@ body {
   justify-content: space-evenly;
 }
 
-.title{
- 
+.address_item:not(:last-child){
+  margin-bottom: 6px;
 }
 
 .conteiner_svg{
   display: flex;
-  gap: 12px;
-  
+  gap: 12px;  
 }
 
 .svg_wrapper{
